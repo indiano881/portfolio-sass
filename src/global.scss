@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+* {
+    box-sizing: border-box;
+    font-family: "Outfit";
+}
+
+html,
+body {
+    height: 100vh;
+}
+
+#root {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    
+}
