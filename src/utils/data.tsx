@@ -1,44 +1,38 @@
 export const projects = [
     {
-      title: "Portfolio Website",
-      subtitle: "Personal portfolio showcasing skills and projects",
-      content: "A clean and responsive portfolio site built with React, featuring sections for projects, skills, and contact information.",
-      tech: "React, Sass, JavaScript, HTML, CSS",
-      image: "https://example.com/portfolio-image.jpg"
+      title: "Parking Time",
+      subtitle: "Real-time parking availability and reservation system",
+      content: "A web application that helps users find available parking spots in real-time, reserve them, and manage their parking sessions seamlessly. The platform includes features like interactive maps, parking history, and payment integration.",
+      tech: "Next.js, React, Material-UI, Firebase, Google Maps API",
+      image: "https://example.com/parking-time-image.jpg"
     },
     {
-      title: "E-commerce Store",
-      subtitle: "Full-fledged online store with payment integration",
-      content: "An e-commerce platform that allows users to browse products, add them to a cart, and complete purchases securely.",
-      tech: "React, Redux, Node.js, Express, MongoDB",
-      image: "https://example.com/ecommerce-image.jpg"
+      title: "Hackathon",
+      subtitle: "Innovative project management and collaboration platform",
+      content: "A dynamic web application designed for hackathons, offering tools for project management, team collaboration, and real-time updates. It includes features like task tracking, team chat, and project timelines, all within an intuitive and responsive interface.",
+      tech: "Next.js, React, Tailwind CSS, Firebase, WebSockets",
+      image: "https://example.com/hackathon-dashboard-image.jpg"
     },
     {
-      title: "Blog Platform",
-      subtitle: "A multi-user blog platform with content management",
-      content: "A blogging platform where users can create, edit, and delete posts. It features user authentication and rich-text editing.",
-      tech: "Next.js, TypeScript, GraphQL, PostgreSQL",
-      image: "https://example.com/blog-image.jpg"
+      title: "Economic MUI Dashboard",
+      subtitle: "Comprehensive economic data visualization platform",
+      content: "A dashboard built with Material-UI (MUI) that allows users to visualize and analyze economic data through interactive charts and graphs. It includes filtering options, real-time updates, and customizable layouts.",
+      tech: "Typescript, React, Material-UI, fetching data from external API, large use of useState() and useEffect()",
+      image: "https://example.com/economic-mui-dashboard-image.jpg"
     },
     {
-      title: "Social Media App",
-      subtitle: "A social networking platform for sharing updates and connecting with friends",
-      content: "This app allows users to post updates, follow other users, like posts, and comment. It also features real-time chat.",
-      tech: "React Native, Firebase, Redux, JavaScript",
-      image: "https://example.com/social-media-image.jpg"
+      title: "Men App",
+      subtitle: "Men's Fashion and Lifestyle Inspiration",
+      content: "A sleek web application that curates the latest trends in men's fashion, grooming, and lifestyle. Users can explore various outfit ideas, grooming tips, and style guides tailored for modern men. The platform offers a minimalist design with easy navigation and high-quality imagery.",
+      tech: "React, Styled Components, Contentful, Netlify",
+      image: "https://example.com/men-app-image.jpg"
     },
     {
-      title: "Task Management Tool",
-      subtitle: "A tool for managing tasks and collaborating with teams",
-      content: "A task management application with features like task assignment, deadlines, project boards, and progress tracking.",
-      tech: "Angular, Node.js, Express, MySQL",
-      image: "https://example.com/task-management-image.jpg"
-    },
-    {
-      title: "Weather Dashboard",
-      subtitle: "Real-time weather data with forecasts",
-      content: "A weather application that provides current weather conditions, forecasts, and historical data for any location.",
-      tech: "Vue.js, OpenWeather API, JavaScript, HTML, CSS",
-      image: "https://example.com/weather-dashboard-image.jpg"
+      title: "Davide Baldi Portfolio",
+      subtitle: "Personal portfolio showcasing design and development skills",
+      content: "A professional portfolio website that highlights Davide Baldi's skills in web development and design. The site features a sleek, minimalist design with sections dedicated to projects, skills, and a contact form, providing a comprehensive overview of his expertise.",
+      tech: "HTML, CSS, JavaScript, React, GSAP",
+      image: "https://example.com/davide-baldi-portfolio-image.jpg"
     }
+    
   ];
