@@ -33,6 +33,14 @@ export const projects = [
       content: "A professional portfolio website that highlights Davide Baldi's skills in web development and design. The site features a sleek, minimalist design with sections dedicated to projects, skills, and a contact form, providing a comprehensive overview of his expertise.",
       tech: "HTML, CSS, JavaScript, React, GSAP",
       image: "https://example.com/davide-baldi-portfolio-image.jpg"
+    },
+    {
+      title: "Mastermind Game",
+      subtitle: "Classic Code-Breaking Puzzle Game",
+      content: "A web-based implementation of the classic Mastermind game, where players attempt to guess a secret code within a limited number of attempts. The game features intuitive controls, vibrant visuals, and an interactive user interface, making it engaging for all ages.",
+      tech: "HTML, CSS, JavaScript, GitHub Pages",
+      image: "https://example.com/mastermind-game-image.jpg"
     }
+    
     
   ];
