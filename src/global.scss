@@ -15,6 +15,7 @@ body {
     display: flex;
     flex-direction: column;
     
+    
 }
 
 //HEADER
@@ -76,6 +77,7 @@ body {
     flex-direction: column;
     align-items: center;
     font-size: 12px;
+    margin: 0;
     text-align: center;
     @media (min-width: 768px) {
       font-size: 24px;
@@ -83,6 +85,31 @@ body {
     @media (min-width: 1200px) {
       font-size: 36px;
     }
+    &__text {
+      margin: 16px 0;
+    }
   }
+  //Main container
+
+  .mainContainer {
+    display: flex;
+    flex: 0 0 calc(50% - 12px);
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+
+  //Cards && card Container
   
-  
+  .cardContainer {
+    background-color: #91b1db;//94a7c0
+    border: 1px solid black;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    height: 700px;
+    margin-bottom: 12px;
+    padding: 4px 8px;
+    width: 320px;
+  }
