@@ -1,11 +1,15 @@
+import Header from "./components/Header"
+import HeroMessage from "./components/HeroMessage"
 import "./global.scss"
+
 
 function App() {
   
 
   return (
     <>
-      <h1>hello world</h1>
+      <Header />
+      <HeroMessage />
     </>
   )
 }

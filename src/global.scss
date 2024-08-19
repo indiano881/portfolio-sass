@@ -16,3 +16,73 @@ body {
     flex-direction: column;
     
 }
+
+//HEADER
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    @media (min-width: 768px) {
+      margin-left: 36px;
+    margin-right: 36px;
+    }
+    &__name {
+        font-size: 24px;
+        font-weight: 200;
+      cursor: pointer;
+      position: relative;
+      padding-left: 60px; 
+      @media (min-width: 768px) {
+        font-size: 36px;
+      }
+      &::before {
+        content: '';
+        cursor: pointer;
+        display: inline-block;
+        background-image: url("../public/gamer.png");
+        background-size: contain;
+        background-repeat: no-repeat;
+        width: 50px;
+        height: 50px;
+        position: absolute;
+        left: 0;
+        top: 50%;
+        transform: translateY(-50%);
+      }
+    }
+    &__menu {
+        display: flex;
+        
+        width: 180px;
+        justify-content: space-between;
+        &--item {
+            color: black;
+           cursor: pointer;
+           font-size: 18px;
+           text-decoration: none;
+           @media (min-width: 768px) {
+            font-size: 24px;
+          }
+        }
+    }
+  }
+  
+  //HEROMESSAGE
+
+  .hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 12px;
+    text-align: center;
+    @media (min-width: 768px) {
+      font-size: 24px;
+    }
+    @media (min-width: 1200px) {
+      font-size: 36px;
+    }
+  }
+  
+  
