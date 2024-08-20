@@ -16,8 +16,8 @@ export const projects = [
     tech: "TypeScript, Next.js, React, Tailwind, Google Recaptcha V3, Sanity, Groq, Internationalization",
     image: "parking.png",
     order: 2,
-    siteLink: "https://main-parking-time.vercel.app/en",
-    githubLink: "https://github.com/MartinAhlsen/ParkingTime-Lapplisorna"
+    siteLink: "https://parking-time.vercel.app/en",
+    githubLink: "https://github.com/indiano881/Parking-time"
   },
   {
     title: "Economic MUI",
