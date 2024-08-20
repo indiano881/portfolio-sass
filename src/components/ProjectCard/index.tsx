@@ -36,9 +36,13 @@ const ProjectCard = (
                     </p>
                 <p className="cardContainer__subtitle">{subtitle}</p>
                 <p className="cardContainer__content">{content}</p>
+                
                 <hr className="cardContainer__line"/>
+                <div className="cardContainer__techContainer">
                 <p className="cardContainer__tech">Technologies</p>
                 <p className="cardContainer__tech--items">{tech}</p>
+                </div>
+                
                 <div className="cardContainer__buttons">
                     <a className="cardContainer__buttons--items" href={siteLink} target="_blank">Live site</a>
                     <a className="cardContainer__buttons--items" href={githubLink} target="_blank">Source code</a>

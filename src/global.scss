@@ -129,13 +129,19 @@ body {
       font-weight: 500;
       margin: 0;
     }
+
+    &__content {
+      min-height: 180px;
+    }
     
     &__line {
       border: none;               
     border-top: 2px solid black;   
     margin: 20px 0;
     }
-
+    &__techContainer {
+      min-height: 100px;
+    }
     &__tech {
       font-weight: 600;
       margin: 0;
@@ -145,6 +151,7 @@ body {
       display: flex;
       justify-content: space-around;
       &--items {
+        text-align: center;
         text-decoration: none;
         color: black;
         border: 2px solid black;
