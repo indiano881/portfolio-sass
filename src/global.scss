@@ -112,4 +112,22 @@ body {
     margin-bottom: 12px;
     padding: 4px 8px;
     width: 320px;
+    &__title {
+      
+      font-size: 24px;
+      font-weight: 600;
+
+
+      &--order {
+        font-weight: 800;
+        font-size: 36px;
+        margin-right: 14px;
+      }
+    }
+    
+    &__line {
+      border: none;               
+    border-top: 2px solid black;   
+    margin: 20px 0;
+    }
   }
