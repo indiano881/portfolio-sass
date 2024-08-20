@@ -1,3 +1,5 @@
+import "../../global.scss"
+
 interface ProjectCardProps {
     title: string,
     subtitle: string,
@@ -37,9 +39,9 @@ const ProjectCard = (
                 <hr className="cardContainer__line"/>
                 <p className="cardContainer__tech">Technologies</p>
                 <p className="cardContainer__tech--items">{tech}</p>
-                <div>
-                    <a href={siteLink} target="_blank">Live site</a>
-                    <a href={githubLink} target="_blank">Source code</a>
+                <div className="cardContainer__buttons">
+                    <a className="cardContainer__buttons--items" href={siteLink} target="_blank">Live site</a>
+                    <a className="cardContainer__buttons--items" href={githubLink} target="_blank">Source code</a>
                 </div>
             </div>
           
