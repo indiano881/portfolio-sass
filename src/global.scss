@@ -55,18 +55,20 @@ body {
     }
     &__menu {
         display: flex;
-        
         width: 180px;
         justify-content: space-between;
+
         &--item {
             color: black;
            cursor: pointer;
            font-size: 18px;
            text-decoration: none;
            padding-bottom: 4px;
+
            &:hover {
             border-bottom: 1px solid black;
            }
+           
            @media (min-width: 768px) {
             font-size: 24px;
           }

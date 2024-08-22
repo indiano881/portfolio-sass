@@ -31,7 +31,7 @@ export const projects = [
   },
   {
     title: "Mem App",
-    subtitle: "Management Skills and Tasks App",
+    subtitle: "Management Tasks App",
     content: "This project was completed during the CSS Libraries course. We had to investigate and create a small app using Styled Components. Despite being an older technology, I really loved it and appreciated its beauty! One of the challenges I faced was storing an array in localStorage. ChatGPT couldn’t help, so I had to do some research on Stack Overflow!",
     tech: "TypeScript, React, Styled Components, LocalStorage",
     image: "mem.png",
