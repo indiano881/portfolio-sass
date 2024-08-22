@@ -1,34 +1,30 @@
-
+import Davide from "../../../public/davide.jpg"
 
 const About = () => {
     return (
         <div>
-          <h3>Hi there! I'm Davide, a passionate and dedicated Fullstack Web Developer with a strong focus on creating elegant, user-friendly, and responsive websites. 
+            <p>Hi there! I'm Davide Baldi, a passionate and dedicated Fullstack Web Developer based in Stockholm, Sweden, with a strong focus on creating elegant, user-friendly, and responsive websites.</p>
+            
+            <p>Web development is more than just a job for me—it's a passion. I love turning ideas into reality, solving complex problems, and constantly learning new things. I focus on creating websites that are not only visually appealing but also provide real value to end users.</p>
+            
+            <p>Over the years, I've expanded my skills to include a significant part of the DevOps and AWS Cloud environment. I love working with Git, Docker, Kubernetes, and the entire AWS ecosystem! I find the concept of Serverless architecture particularly exciting!</p>
 
-Over the years, I've honed my skills in front-end and back-end development, allowing me to build full-stack applications that not only look great but also perform seamlessly. </h3>
+            <h3>My Expertise:</h3>
 
-<h4>My expertise lies in:</h4>
+            <ul>
+                <li>Front-End Development: HTML, CSS, JavaScript, jQuery, TypeScript, React, Next.js.</li>
+                <li>Back-End Development: Node.js, Express, and databases like MongoDB, SQL, and AWS DynamoDB.</li>
+                <li>Responsive Design: Ensuring that websites are accessible and functional across all devices, from desktops to smartphones.</li>
+                <li>DevOps: Git, Docker, Kubernetes.</li>
+                <li>AWS Cloud Framework: IAM, EC2, S3, Lambda, CDK, CloudFormation, Elastic Beanstalk, CloudWatch, RDS, DynamoDB, API Gateway.</li>
+            </ul>
 
-<h3>Front-End Development: Crafting intuitive and engaging user interfaces using HTML, CSS, JavaScript, and frameworks like React.
-Back-End Development: Developing robust server-side applications with Node.js, Express, and databases like MongoDB and SQL.
-Responsive Design: Ensuring that websites are accessible and functional across all devices, from desktops to smartphones.
-Continuous Learning: Staying up-to-date with the latest trends and technologies in web development to deliver the best possible solutions.
-
-<h4>My Journey</h4>
-<h3>My journey into web development began with a fascination for technology and a desire to create something meaningful. What started as a hobby quickly turned into a career as I realized the impact that well-crafted websites can have on businesses and individuals alike.</h3>
-
-I've had the privilege of working on a diverse range of projects, from small business websites to complex web applications. Each project has been a learning experience, and I'm always excited to take on new challenges that push my skills further.</h3>
-
-<h4>Why I Love What I Do</h4>
-<h3>Web development is more than just a job for me—it's a passion. I love the process of turning ideas into reality, solving complex problems, and constantly learning new things. Seeing a project come to life and knowing that it will provide value to users is incredibly rewarding.</h3>
-
-<h4>Let’s Connect!</h4>
-<h3>I’m always open to new opportunities, collaborations, or just a friendly chat. Whether you’re looking for a web developer for your next project, or you simply want to share ideas, feel free to reach out!
-
-You can contact me at [your email address] or connect with me on [LinkedIn, GitHub, or other relevant platforms].
-
-Thank you for stopping by, and I look forward to connecting with you!</h3>
+            <h4>My Journey</h4>
+            <p>My journey began when I realized how tired I was of working in the restaurant business. While I loved meeting new people every day, balancing evening and weekend shifts with family life became increasingly difficult. In 2022, I decided to change careers and enrolled in a professional education program (Yrkeshögskolan) in Stockholm to challenge myself and return to studying. So far, I’ve loved the process and am thrilled with my choice! Below a picture at my last job during Halloween!😊</p>
+            
+            <div><img src={Davide} width="60%" height="auto"/></div>
         </div>
+
     )
 };
 
