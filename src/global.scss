@@ -172,3 +172,27 @@ body {
       }
     }
   }
+
+  //ABOUT
+
+  .about {
+    &__text {
+      text-align: justify;
+      font-size: 18px;
+    }
+
+    &__image {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      
+      &--img {
+        width: 90%;
+      height: auto;
+      @media (min-width: 768px) {
+        width: 50%;
+      }
+      }
+      
+    }
+  }
