@@ -19,7 +19,7 @@ const About = () => {
                 <li className="about__text">AWS Cloud Framework: IAM, EC2, S3, Lambda, CDK, CloudFormation, Elastic Beanstalk, CloudWatch, RDS, DynamoDB, API Gateway.</li>
             </ul>
 
-            <h4>My Journey</h4>
+            <h3>My Journey</h3>
             <p className="about__text" >My journey began when I realized how tired I was of working in the restaurant business. While I loved meeting new people every day, balancing evening and weekend shifts with family life became increasingly difficult. In 2022, I decided to change careers and enrolled in a professional education program (Yrkeshögskolan) in Stockholm to challenge myself and return to studying. So far, I’ve loved the process and am thrilled with my choice! Below a picture at my last job during Halloween!😊</p>
             
             <div className="about__image"><img className="about__image--img" src={Davide} /></div>
