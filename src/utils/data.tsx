@@ -1,6 +1,6 @@
 export const projects = [
   {
-    title: "Hackathon- OBS work in progress!",
+    title: "Hackathon",
     subtitle: "Event Homepage",
     content: "A dynamic web page where I explored animations using Framer Motion and experimented with parallax movements. I also worked with a CMS called Hygraph, which I absolutely loved! Google Recaptcha V2 was implemented, and the styling was done using Tailwind CSS.",
     tech: "Next.js, React, Tailwind CSS, Framer Motion, Parallax",
