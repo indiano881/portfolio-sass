@@ -1,23 +1,24 @@
 export const projects = [
-  {
-    title: "Hackathon",
-    subtitle: "Event Homepage",
-    content: "A dynamic web page where I explored animations using Framer Motion and experimented with parallax movements. I also worked with a CMS called Hygraph, which I absolutely loved! Google Recaptcha V2 was implemented, and the styling was done using Tailwind CSS.",
-    tech: "Next.js, React, Tailwind CSS, Framer Motion, Parallax",
-    image: "front.png",
-    order: 1,
-    siteLink: "https://front-hackathon-theta.vercel.app/",
-    githubLink: "https://github.com/indiano881/front-hackathon"
-  },
+  
   {
     title: "Parking Time",
     subtitle: "Company's Homepage",
     content: "A real-world project developed in collaboration with Agile and UI/UX design students. Parking Time was built with the help of three other frontend developers, and we had weekly presentations with the client. The best features? Internationalization with next-intl, cool animations, and fetching external data with Groq and Sanity!",
     tech: "TypeScript, Next.js, React, Tailwind, Google Recaptcha V3, Sanity, Groq, Internationalization",
     image: "parking.png",
-    order: 2,
+    order: 1,
     siteLink: "https://parking-time.vercel.app/en",
     githubLink: "https://github.com/indiano881/Parking-time"
+  },
+  {
+    title: "Hackathon",
+    subtitle: "Event Homepage",
+    content: "A dynamic web page where I explored animations using Framer Motion and experimented with parallax movements. I also worked with a CMS called Hygraph, which I absolutely loved! Google Recaptcha V2 was implemented, and the styling was done using Tailwind CSS.",
+    tech: "Next.js, React, Tailwind CSS, Framer Motion, Parallax",
+    image: "front.png",
+    order: 2,
+    siteLink: "https://front-hackathon-theta.vercel.app/",
+    githubLink: "https://github.com/indiano881/front-hackathon"
   },
   {
     title: "Economic MUI",
