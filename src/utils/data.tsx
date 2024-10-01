@@ -11,14 +11,14 @@ export const projects = [
     githubLink: "https://github.com/indiano881/Parking-time"
   },
   {
-    title: "Hackathon",
-    subtitle: "Event Homepage",
-    content: "A dynamic web page where I explored animations using Framer Motion and experimented with parallax movements. I also worked with a CMS called Hygraph, which I absolutely loved! Google Recaptcha V2 was implemented, and the styling was done using Tailwind CSS.",
-    tech: "Next.js, React, Tailwind CSS, Framer Motion, Parallax",
-    image: "front.png",
+    title: "Pandorum",
+    subtitle: "E-commerce",
+    content: "OBS-WORK IN PROGRESS//This is a simple next.js project in which you can log in with username Davide and explore a group of different exclusive products, fetched from an external API. With the use of useContext is possible to save the itmes in your wishlist.",
+    tech: "Next.js, Tailwind CSS, useContenxt, Splashscreen animation",
+    image: "pandorum.png",
     order: 2,
-    siteLink: "https://front-hackathon-theta.vercel.app/",
-    githubLink: "https://github.com/indiano881/front-hackathon"
+    siteLink: "https://store-context.vercel.app/",
+    githubLink: "https://github.com/indiano881/store-context/tree/main"
   },
   {
     title: "Economic MUI",
@@ -31,14 +31,14 @@ export const projects = [
     githubLink: "https://github.com/indiano881/economicMUI"
   },
   {
-    title: "Mem App",
-    subtitle: "Management Tasks App",
-    content: "This project was completed during the CSS Libraries course. We had to investigate and create a small app using Styled Components. Despite being an older technology, I really loved it and appreciated its beauty! One of the challenges I faced was storing an array in localStorage. ChatGPT couldn’t help, so I had to do some research on Stack Overflow!",
-    tech: "TypeScript, React, Styled Components, LocalStorage",
-    image: "mem.png",
+    title: "Hackathon",
+    subtitle: "Event Homepage",
+    content: "A dynamic web page where I explored animations using Framer Motion and experimented with parallax movements. I also worked with a CMS called Hygraph, which I absolutely loved! Google Recaptcha V2 was implemented, and the styling was done using Tailwind CSS.",
+    tech: "Next.js, React, Tailwind CSS, Framer Motion, Parallax",
+    image: "front.png",
     order: 4,
-    siteLink: "https://men-app.netlify.app/",
-    githubLink: "https://github.com/indiano881/mem-app"
+    siteLink: "https://front-hackathon-theta.vercel.app/",
+    githubLink: "https://github.com/indiano881/front-hackathon"
   },
   {
     title: "My Former Site",
