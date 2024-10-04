@@ -66,7 +66,7 @@ body {
            padding-bottom: 4px;
 
            &:hover {
-            border-bottom: 1px solid black;
+            text-decoration: underline;
            }
            
            @media (min-width: 768px) {
@@ -138,6 +138,7 @@ body {
 
     &__content {
       min-height: 180px;
+      text-align: justify;
     }
     
     &__line {
@@ -155,6 +156,7 @@ body {
 
     &__buttons {
       display: flex;
+      margin-top: 8px;
       justify-content: space-around;
       &--items {
         text-align: center;
