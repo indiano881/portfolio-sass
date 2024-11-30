@@ -11,12 +11,22 @@ export const projects = [
     githubLink: "https://github.com/indiano881/Parking-time"
   },
   {
+    title: "Nuxtermind",
+    subtitle: "My own modern intepretation of a classic Code-Breaking Puzzle Game",
+    content: "Nuxtermind is a very modern version of the mastermind/secret code game with a touch of some modern features. Players will be allowed to choose a character and release powers during the gameplay. A timer will be alwys set and online torunament mode will be availble so that it is possible to play online in real time.",
+    tech: "Vue 3, Nuxt, Supabase, Socket.io, Pug, Tailwind",
+    image: "nuxtermind.png",
+    order: 2,
+    siteLink: "https://nuxtermind.vercel.app/",
+    githubLink: "https://nuxtermind.vercel.app/"
+  },
+  {
     title: "Pandorum",
     subtitle: "E-commerce",
     content: "OBS-WORK IN PROGRESS//This is a simple next.js project in which you can log in with username Davide and explore a group of different exclusive products, fetched from an external API. With the use of useContext is possible to save the itmes in your wishlist.",
     tech: "Next.js, Tailwind CSS, useContenxt, Splashscreen animation",
     image: "pandorum.png",
-    order: 2,
+    order: 3,
     siteLink: "https://store-context.vercel.app/",
     githubLink: "https://github.com/indiano881/store-context/tree/main"
   },
@@ -26,7 +36,7 @@ export const projects = [
     content: "A SPA dashboard built with Material-UI (MUI) that allows users to visualize and analyze economic data through interactive charts and graphs. It includes filtering options, real-time updates, and customizable layouts. Data is fetched from multiple APIs, and React hooks like useState() and useEffect() were extensively used.",
     tech: "TypeScript, React, Material-UI, Single Page Application",
     image: "economic.png",
-    order: 3,
+    order: 4,
     siteLink: "https://economi-mui.netlify.app/",
     githubLink: "https://github.com/indiano881/economicMUI"
   },
@@ -36,30 +46,11 @@ export const projects = [
     content: "A dynamic web page where I explored animations using Framer Motion and experimented with parallax movements. I also worked with a CMS called Hygraph, which I absolutely loved! Google Recaptcha V2 was implemented, and the styling was done using Tailwind CSS.",
     tech: "Next.js, React, Tailwind CSS, Framer Motion, Parallax, Splashscreen animation, Hygraph, Google RecaptchaV2",
     image: "front.png",
-    order: 4,
+    order: 5,
     siteLink: "https://front-hackathon-theta.vercel.app/",
     githubLink: "https://github.com/indiano881/front-hackathon"
   },
-  {
-    title: "My Former Site",
-    subtitle: "Portfolio",
-    content: "My first attempt at creating a professional portfolio! This project dates back to March 2024, when I had only been coding for six months. Here, I began to learn the power of React and the beauty of creating a single-page application!",
-    tech: "HTML, CSS, JavaScript, React, Single Page Application",
-    image: "davide.png",
-    order: 5,
-    siteLink: "https://davide-baldi.netlify.app/",
-    githubLink: "https://github.com/indiano881/portfolio-holder"
-  },
-  {
-    title: "Mastermind Game",
-    subtitle: "Classic Code-Breaking Puzzle Game",
-    content: "A web-based implementation of the classic Mastermind game, where players attempt to guess a secret code within a limited number of attempts. The game features intuitive controls, vibrant visuals, and an interactive user interface, making it engaging for all ages.",
-    tech: "HTML, CSS, JavaScript, JQuery",
-    image: "mastermind.png",
-    order: 6,
-    siteLink: "https://indiano881.github.io/Mastermind-5thAttempt/",
-    githubLink: "https://github.com/indiano881/Mastermind-5thAttempt"
-  },
+  
   /*{
     title: "Mem App",
     subtitle: "Management Tasks App",
